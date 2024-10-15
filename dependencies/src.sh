@@ -16,6 +16,7 @@ rm -rf /tmp/dumpifs
 cd /tmp
 git clone https://github.com/lzfse/lzfse.git
 cd /tmp/lzfse
+make
 sudo make install
 cd /tmp
 rm -rf /tmp/lzfse
