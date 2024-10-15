@@ -33,7 +33,7 @@ DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install \
 
 # Install sasquatch Debian package
 curl -L -o sasquatch_1.0.deb "https://github.com/onekey-sec/sasquatch/releases/download/sasquatch-v4.5.1-4/sasquatch_1.0_$(dpkg --print-architecture).deb"
-dpkg -i sasquatch_1.0.deb
+sudo dpkg -i sasquatch_1.0.deb
 rm sasquatch_1.0.deb
 
 # Install Python dependencies
